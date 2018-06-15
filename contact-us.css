@@ -1,0 +1,124 @@
+/* for mobile platforms */
+@media only screen and (max-width: 600px) {
+
+    body {
+        margin : 0 auto;
+        padding : 0 0 0 0;
+    }
+    
+    div {
+        width : 100%;
+        height : 30%;
+        margin-bottom : 2vh;
+        padding : 1vh;
+        background-color : antiquewhite;
+    }
+
+    h1 {
+        align : center;
+        font-size: 8vw;
+        font-family : "Arial";
+        margin : 1vw;
+    }
+
+    input[type="text"] {
+        display : block;
+        width : 80%;
+        height : 5%;
+        margin : 1vw;
+        padding : .5vw;
+        box-sizing : border-box;
+        font-size : 5vw;
+        font-family : "Arial";
+    }
+
+    input[type="submit"] {
+        display : block;
+        width : 100%;
+        height : 60%;
+        margin : 0;
+        padding : .5vw;
+        box-sizing : border-box;
+    }
+
+    label {
+        cursor : default;
+        font-family : "Arial"; 
+    }
+
+    textarea {
+        display : block;
+        width : 80%;
+        height : 90%;
+        margin : 1vw;
+        padding : .5vw;
+        box-sizing : border-box;
+        font-size : 5vw;
+        font-family : "Arial";
+    }
+    
+}
+
+/* for desktop platforms */
+@media only screen and (min-width: 600px) {
+
+    div {
+        width : 50%;
+        margin : 20px;
+        padding : 8px;
+        background-color : antiquewhite;
+    }
+
+    h1 {
+        font-size: 38px;
+        font-family : "Arial";
+        margin : 20px;
+    }
+
+    input[type="text"] {
+        display : block;
+        width : 80%;
+        height : 5%;
+        margin : 10px;
+        padding : 8px;
+        box-sizing : border-box;
+        align : center;
+        font-size : 16px;
+        font-family : "Arial";
+    }
+
+    input[type="submit"] {
+        display : block;
+        width : 10%;
+        margin : 18px;
+        padding : 8px;
+        box-sizing : border-box;
+        align : center;
+        font-size : 16px;
+    }
+
+    textarea {
+        display : block;
+        width : 80%;
+        height : 100%;
+        margin : 10px;
+        padding : 8px;
+        box-sizing : border-box;
+        align : center;
+        font-size : 16px;
+        font-family : "Arial";
+    }
+
+}
+
+
+label {
+    cursor : default;
+    font-family : "Arial"; 
+    font-size : 16px;
+}
+
+form {
+    align : center;
+}
+
